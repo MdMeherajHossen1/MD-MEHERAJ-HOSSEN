@@ -9,7 +9,7 @@ const AboutMe = () => {
                         <img src={image3} style={{ width: "60%", backgroundColor: '#004b23' }} className="p-3 rounded-circle" alt="" />
                     </div>
                     <div className="col-12 col-md-7">
-                        <h1 className="border-bottom border-success text-center"> <span className="text-primary">ABOUT</span> ME</h1>
+                        <h1 className="border-bottom border-success text-center fw-bolder"> <span className="text-primary">ABOUT</span> ME</h1>
                         <div>
                             <p>Hello, I'm MD MEHERAJ HOSSEN. A passionate Programmer who likes to explore new technologies and try something new with the time being. As MERN stack gives a facility to create a flexible and scalable web app, I found it much more interesting to start my programming career.</p>
 
