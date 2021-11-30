@@ -19,7 +19,7 @@ const Contact = () => {
             <div className="container py-5">
                 <h1 className="text-center fw-bolder"> Contact <span className="text-primary"> Me</span> </h1>
                 <div className="row">
-                    <div className="col-11 col-md-7 mx-auto">
+                    <div className="col-11 col-md-7 p-3 rounded-3 mx-auto" style={{ backgroundColor: "#222222" }}>
                         <form onSubmit={sendEmail}>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -40,7 +40,7 @@ const Contact = () => {
                             <button type="submit" className="btn btn-success col-12 rounded-pill"> Send <i className="fas fa-paper-plane ms-2"></i></button>
                         </form>
                     </div>
-                    <div className="col-11 col-md-5 mx-auto mt-4">
+                    <div className="col-11 col-md-5 mx-auto mt-4 shadow-lg">
                         <div className="row my-5">
                             <div className="col-4  text-center my-auto">
                                 <i class="far fa-envelope fs-1"></i>

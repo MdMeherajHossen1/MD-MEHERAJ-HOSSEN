@@ -1,0 +1,24 @@
+
+.tech{
+    background-color: #222222;
+    border-radius: 15px;
+  
+}
+.tech:hover{
+    transform: scale(1.1);
+    background-color: #666666;
+   /*  */
+}
+.tech img{
+    transition: 2s
+}
+.tech img:hover{
+    transform: rotate(360deg);
+}
+
+.tech-img{
+    width: 70px;
+    height: 70px;
+   
+}
+
